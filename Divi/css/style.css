@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+section div.div1 {
+  background-color: steelblue;
+display: flex;
+flex-direction: column;
+flex: 1;
+}
+section div.div2 {
+background-color: gold;
+display: flex;
+flex: 1;
+  flex-direction: row;
+}
+section {
+display: flex;
+  flex-direction: column;
+  height: 500px;
+}

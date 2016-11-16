@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url('img/background.jpg');
+}
+nav {
+  padding: 40px 10px;
+}
+header {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+color: : rgba(97, 90, 91, 0.88)
+}
+header li {
+  display: inline-block;
+  width: 20%;
+  padding: 10%;
+  box-sizing: border-box;
+}
+hl, ul {
+  margin: 0;
+  display: inline-block;
+}
+ul {
+  float: right;
+}
+h1 span {
+  color:  rgb(65, 127, 232);
+}
+ul li {
+  display: inline-block;
+  line-height: 50px;
+  padding
+}

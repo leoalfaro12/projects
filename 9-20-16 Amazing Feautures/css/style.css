@@ -1,0 +1,13 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
+section {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+main {
+display: inline-flex;
+}
+i {
+  font-size: 50%;
+}

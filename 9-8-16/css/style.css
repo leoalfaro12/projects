@@ -1,0 +1,21 @@
+img {position: absolute;
+top: calc(50% - calc(150px / 2) );
+left: calc(50% - calc(150px / 2) );
+border: 30px solid red;
+padding: 50px;
+background-color: green;}
+
+div {
+background-color: hsla(0, 0%, 0%, 0.5);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+h1 {
+color: purple;
+position: absolute;
+top: calc(50% - calc(1px / 2) );
+left: calc(50% - calc(5% / 2) )
+}

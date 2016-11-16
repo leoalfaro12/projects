@@ -1,0 +1,60 @@
+/*body {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  box-sizing: border-box;
+  width: calc( (100vw - 18px) / 4 );
+  display: inline-block;
+  background-color: steelblue;
+  padding: 10px;
+  float: left;
+}
+ul::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+div {
+  width: 50vw;
+  height: 100vh;
+  float: left;
+  background-image: url(http://unsplash.it/800/800?image=699);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*div img {
+  position: relative;
+  left: -50%;
+  top: -50%;
+}*/
+/*h1 {
+  margin: 0;
+  font-size: 7.2vw;
+}
+p {
+  padding: 0;
+  -moz-column-width: 200px;
+  column-width: 200px
+}*/
+header {
+  border: 20px solid;
+  background-color: yellow;
+  min-height: 100vh;
+  display: flex;
+}
+h1 {
+  font-size: 10vw;
+  margin: auto;
+  text-align: center;
+}
+p {
+  padding: 0;
+  column-width: 200px;
+  -moz-column-width: 200px;
+}

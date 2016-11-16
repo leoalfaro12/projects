@@ -1,0 +1,11 @@
+main img {
+  width: 50%;
+  height: 500px;
+}
+section h1 {
+  width: 50%;
+  float: right;
+}
+section p {
+width: 50%;
+}

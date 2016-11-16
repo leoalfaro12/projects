@@ -1,0 +1,54 @@
+section:nth-of-type(2) {
+  flex-direction: column;
+  display: flex;
+padding: 100px;
+}
+
+header {
+background-color: purple;
+width: 100%;
+height: 200px;
+
+}
+
+
+body{
+  background-color: steelblue;
+}
+section div.div1 {
+  background-color: crimson;
+flex: 1;
+float: left;
+width: 50%;
+height:  500px;
+
+}
+section div.div2 {
+background-color: orange;
+flex: 1;
+height:  500px;
+}
+  section div.div3 {
+background-color: cornsilk;
+flex: 1;
+float: left;
+width: 50%;
+height: 130px;
+  }
+section div.div4 {
+background-color: pink;
+ flex: 1;
+height:  130px;
+}
+section div.div5 {
+  background-color: green;
+flex: 1;
+float: left;
+width: 50%;
+height: 130px;
+}
+section div.div6 {
+  background-color: yellow;
+flex: 1;
+height: 130px;
+}
