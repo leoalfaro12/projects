@@ -1,5 +1,6 @@
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,600|Pacifico');
+('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 body {
   font-family: Montserrat, sans-serif;
 }
@@ -24,6 +25,24 @@ h1 {
   font-family: Pacifico, sans-serif;
   color: hsl(9, 89%, 67%);
 }
+nav div {
+  position: absolute;
+  top: 0;
+  left: -500px;
+  width: 250px;
+  height: 100vh;
+  transition: all 150ms ease-out;
+  background-color: hsl(193, 68%, 45%);
+}
+nav div.open {
+  left: 0px
+}
+nav div i {
+  position: absolute;
+  right: 18px;
+  top: 16px;
+  color: white;
+}
 nav {
   display: flex;
   flex-direction: row;
@@ -40,9 +59,6 @@ ul {
   list-style: none;
 }
 nav ul {
-  position: absolute;
-  top: 0;
-  left: -150px;
   background-color: hsl(193, 68%, 45%);
   padding: 20px;
   width: 250px;
@@ -74,7 +90,94 @@ header {
   justify-content: center;
   align-items: center;
 }
-header
+
 h2 {
   font-size: 40px;
+  color: hsl(193, 68%, 45%);
+}
+section {
+  display: flex;
+  padding: 100px 0 60px 0;
+}
+section img {
+  border-radius: 50%;
+}
+section .left div {
+  flex-direction: column;
+  display: flex;
+  text-align: right;
+  padding-right: 20%;
+
+}
+section .left p {
+  padding-left: 20%;
+}
+section .right p {
+  padding-right: 20%;
+}
+section p {
+  color: gray;
+}
+section .right div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+}
+h4 {
+  color: hsl(193, 68%, 45%);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: hsl(9, 89%, 67%);
+}
+main div {
+margin-top: 40px;
+margin-bottom: 60px;
+}
+ main h5 {
+  color: white;
+  font-size: 30px;
+}
+main p {
+  color: lightgray;
+  padding-left: 50px;
+  padding: 0
+}
+main h6 {
+  color: white;
+  font-size: 15px;
+}
+main #ceo {
+  font-size: 13px;
+}
+aside div {
+  display: flex;
+  flex-direction: column;
+}
+aside {
+  display: flex;
+}
+aside #con {
+  margin-right: 25px;
+  margin-left: 50px;
+}
+aside #adi{
+margin-left: 25px;
+margin-right: 25px;
+}
+aside #mal {
+margin-left: 25px;
+margin-right: 50px;
+}
+aside h4 {
+  font-size: 23px;
+}
+aside p {
+
+}
+aside img {
+
 }
