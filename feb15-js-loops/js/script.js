@@ -5,15 +5,10 @@ var addBtn = document.getElementById('addBtn');
 var removeBtn = document.getElementById('removeBtn');
 
  addBtn.addEventListener('click', function(){
-   askForColor();
+   alert('hey there');
  });
  removeBtn.addEventListener('click', function(){
-  // var re = /ab+c/;
-  // console.log(re);
-  //
-  // var myRe = /d(b+)d/g;
-  // var myArray = myRe.exec('cdbbdbsbz');
-  // console.log(myArray);
+  alert('bye');
  });
  function askForColor(){
    var userColor = prompt('gimme da color');
