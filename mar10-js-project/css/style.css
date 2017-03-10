@@ -1,0 +1,50 @@
+#project {
+  background-color: white;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+}
+#project ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.4;
+  font-weight: 100;
+}
+h1, h2, h3 {
+  margin-top: 0;
+  text-transform: uppercase;
+}
+header {
+  height: 45vh;
+  background-image: url('http://unsplash.it/1000/400?image=330');
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section {
+  padding: 15vw 10vw;
+}
+section img {
+  float: left;
+  width: 35%;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+section:nth-child(2) img{
+  float: right;
+  margin-right: 0;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+footer {
+  padding: 25px 50px;
+  background-color: black;
+  color: hsl(0, 0%, 60%);
+}
