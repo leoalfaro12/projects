@@ -125,3 +125,16 @@ div section #inform {
   flex: 1;
   margin-left: 5%;
 }
+section.colorIn {
+  background-color: red;
+  transition: background-color 2000ms ease-out;
+}
+section:nth-child(1).colorIn{
+  background-color: salmon;
+}
+section:nth-child(2).colorIn{
+  background-color: steelblue;
+}
+section:nth-child(3).colorIn{
+  background-color: gold;
+}
